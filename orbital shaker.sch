@@ -1,0 +1,245 @@
+EESchema Schematic File Version 4
+LIBS:orbital shaker-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SparkFun-Boards:SPARKFUN_PRO_MICRO B1
+U 1 1 5D879065
+P 3250 3675
+F 0 "B1" H 3250 4585 45  0000 C CNN
+F 1 "SPARKFUN_PRO_MICRO" H 3250 4501 45  0000 C CNN
+F 2 "Sparkfun parts:SPARKFUN_PRO_MICRO" H 3250 4475 20  0001 C CNN
+F 3 "" H 3250 3675 50  0001 C CNN
+F 4 "XXX-00000" H 3250 4406 60  0000 C CNN "Field4"
+	1    3250 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:Pololu_Breakout_DRV8825 A1
+U 1 1 5D87915D
+P 4675 3500
+F 0 "A1" H 4675 4278 50  0000 C CNN
+F 1 "Pololu_Breakout_DRV8825" H 4675 4187 50  0000 C CNN
+F 2 "Sparkfun parts:POLOLU-DRV8825" H 4875 2700 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2982" H 4775 3200 50  0001 C CNN
+	1    4675 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 4300 4675 4500
+Wire Wire Line
+	4675 4650 2500 4650
+Wire Wire Line
+	2500 4650 2500 3325
+Wire Wire Line
+	2500 3325 2700 3325
+Wire Wire Line
+	4000 3425 4000 3200
+Wire Wire Line
+	3700 3225 3825 3225
+Wire Wire Line
+	4100 3225 4100 4400
+Wire Wire Line
+	4100 4400 4750 4400
+Wire Wire Line
+	4775 4400 4775 4300
+Wire Wire Line
+	3700 3825 3775 3825
+Wire Wire Line
+	2600 3425 2600 4750
+Wire Wire Line
+	2600 4750 3925 4750
+Wire Wire Line
+	3925 4750 3925 4925
+Wire Wire Line
+	2800 4125 2700 4125
+Wire Wire Line
+	2700 4125 2700 4475
+Wire Wire Line
+	2700 4475 4200 4475
+Wire Wire Line
+	4200 4475 4200 3700
+Wire Wire Line
+	4200 3700 4275 3700
+Wire Wire Line
+	2800 4025 2650 4025
+Wire Wire Line
+	2650 4025 2650 4575
+Wire Wire Line
+	2650 4575 4150 4575
+Wire Wire Line
+	4150 4575 4150 3600
+Wire Wire Line
+	4150 3600 4275 3600
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5D87A2E4
+P 6025 3225
+F 0 "J2" H 6052 3201 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 6052 3110 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6025 3225 50  0001 C CNN
+F 3 "~" H 6025 3225 50  0001 C CNN
+	1    6025 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 3400 5275 3400
+Wire Wire Line
+	5275 3400 5275 3125
+Wire Wire Line
+	5275 3125 5825 3125
+Wire Wire Line
+	5075 3500 5375 3500
+Wire Wire Line
+	5375 3500 5375 3225
+Wire Wire Line
+	5375 3225 5825 3225
+Wire Wire Line
+	5075 3700 5550 3700
+Wire Wire Line
+	5550 3700 5550 3325
+Wire Wire Line
+	5550 3325 5825 3325
+Wire Wire Line
+	5075 3800 5650 3800
+Wire Wire Line
+	5650 3800 5650 3425
+Wire Wire Line
+	5650 3425 5825 3425
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5D87BE87
+P 1800 3225
+F 0 "J1" H 1694 2900 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1694 2991 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1800 3225 50  0001 C CNN
+F 3 "~" H 1800 3225 50  0001 C CNN
+	1    1800 3225
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 2900 2150 3225
+Wire Wire Line
+	2150 3225 2000 3225
+Wire Wire Line
+	2150 2900 2550 2900
+Wire Wire Line
+	3700 3425 3925 3425
+Wire Wire Line
+	3700 3125 3700 2900
+Connection ~ 3700 2900
+Wire Wire Line
+	3700 2900 4675 2900
+Wire Wire Line
+	3925 3425 3925 4700
+Wire Wire Line
+	3925 4700 3625 4700
+Wire Wire Line
+	3625 4700 3625 4925
+Connection ~ 3925 3425
+Wire Wire Line
+	3925 3425 4000 3425
+Wire Wire Line
+	2000 3125 2000 2550
+Wire Wire Line
+	2000 2550 2300 2550
+Wire Wire Line
+	3825 2550 3825 3225
+Connection ~ 3825 3225
+Wire Wire Line
+	3825 3225 4100 3225
+$Comp
+L power:GND #PWR01
+U 1 1 5D87E5AF
+P 2300 2550
+F 0 "#PWR01" H 2300 2300 50  0001 C CNN
+F 1 "GND" H 2305 2377 50  0000 C CNN
+F 2 "" H 2300 2550 50  0001 C CNN
+F 3 "" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 2550
+$Comp
+L power:+12V #PWR02
+U 1 1 5D87E5F9
+P 2550 2900
+F 0 "#PWR02" H 2550 2750 50  0001 C CNN
+F 1 "+12V" H 2565 3073 50  0000 C CNN
+F 2 "" H 2550 2900 50  0001 C CNN
+F 3 "" H 2550 2900 50  0001 C CNN
+	1    2550 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 2900
+Wire Wire Line
+	2550 2900 3700 2900
+Text Label 2125 3225 0    50   ~ 0
+12V
+Text Label 2050 2550 0    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x03_Female J3
+U 1 1 5D87EC34
+P 3775 5175
+F 0 "J3" V 3622 4987 50  0000 R CNN
+F 1 "Conn_01x03_Female" V 3713 4987 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3775 5175 50  0001 C CNN
+F 3 "~" H 3775 5175 50  0001 C CNN
+	1    3775 5175
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3625 4925 3675 4925
+Wire Wire Line
+	3675 4925 3675 4975
+Wire Wire Line
+	3775 3825 3775 4975
+Wire Wire Line
+	3925 4925 3875 4925
+Wire Wire Line
+	3875 4925 3875 4975
+Wire Wire Line
+	2800 3425 2700 3425
+Wire Wire Line
+	2700 3325 2700 3425
+Connection ~ 2700 3325
+Wire Wire Line
+	2700 3325 2800 3325
+Connection ~ 2700 3425
+Wire Wire Line
+	2700 3425 2600 3425
+Wire Wire Line
+	4750 4400 4750 4500
+Wire Wire Line
+	4750 4500 4675 4500
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 4400 4775 4400
+Connection ~ 4675 4500
+Wire Wire Line
+	4675 4500 4675 4650
+Wire Wire Line
+	4275 3300 4200 3300
+Wire Wire Line
+	2300 2550 3825 2550
+Wire Wire Line
+	4200 3300 4200 3200
+Wire Wire Line
+	4000 3200 4200 3200
+Connection ~ 4200 3200
+Wire Wire Line
+	4200 3200 4275 3200
+$EndSCHEMATC
