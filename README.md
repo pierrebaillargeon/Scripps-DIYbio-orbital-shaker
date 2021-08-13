@@ -1,4 +1,4 @@
-# DIYbio-orbital-shaker-PCB
+# Scripps-DIYbio-orbital-shaker
  Electronic circuitboard designed for the DIYbio orbital shaker project (https://www.thingiverse.com/thing:2633507).
  
  An assembly guide for this project can be found here: https://scrippsresearch.dozuki.com/Guide/How+to+assemble+a+DIYbio+orbital+shaker/1
